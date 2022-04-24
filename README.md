@@ -1,4 +1,4 @@
-## Quick-IC-Vue 1.0.0
+## Quick IC Vue 1.1.0
 
 A quick Vue template for deployment on the Internet Computer.
 
