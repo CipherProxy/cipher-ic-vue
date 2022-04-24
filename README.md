@@ -3,6 +3,8 @@
 A quick Vue template for deployment on the Internet Computer.
 
 This is a create-ic-app template that has been modified. This version runs Vite 2.9.5 and DFX 0.9.2.
+<br>
+<br>
 
 ### On first clone only:
 
