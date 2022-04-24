@@ -16,12 +16,18 @@ import Auth from './Auth.vue';
 
 export default {
   name: "Main",
+  // Define and instantiate your state data by stating 'yourVar: itsType'
+  // Use it in HTML by {{yourData}} and in JS by using 'this.yourData'
   data: () => ({
     filler: "Content Goes Here!",
   }),
+  // Define what Vue components will be loaded if any
   components: {
     Auth,
   },
+  // Define your functions here to be called throughout the rest of the program
+  // Use async and separate each function with a comma.
+  // Call these by using 'this.yourFunctionName()'
   methods: {
     async displayGreeting() {
       alert("The page says hi back!");
