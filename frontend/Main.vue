@@ -27,7 +27,7 @@ export default {
   },
   // Define your functions here to be called throughout the rest of the program
   // Use async and separate each function with a comma.
-  // Call these by using 'this.yourFunctionName()'
+  // Call these by using 'this.yourFunctionName()' in JS or @click='' in HTML
   methods: {
     async displayGreeting() {
       alert("The page says hi back!");
