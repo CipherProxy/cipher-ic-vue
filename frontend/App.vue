@@ -1,38 +1,25 @@
 <template>
   <div class="App">
     <Auth />
-    <Intro />
+    <Main />
   </div>
 </template>
 
 <script lang="ts">
-import Intro from "./Intro.vue"
+import Main from "./Main.vue"
 import Auth from "./Auth.vue"
 
 export default {
   name: "App",
   components: {
-    Intro,
+    Main,
     Auth,
   },
 }
 </script>
 
 <style>
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-  sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-button {
-  font-weight: 600;
-}
-
-.App {
-  text-align: center;
+html {
+  background-color: #303030;
 }
 </style>
