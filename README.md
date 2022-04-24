@@ -14,6 +14,7 @@ dfx stop
 ```
 Note: These commands generate the core vite files needed to use this program. You only need to do these steps on the first setup. You do not need to have dfx running to use this program unless you have motoko or other on chain functions that depend on a persistent dfx.
 
+
 ### Anytime after initial setup:
 
 Development Server:
