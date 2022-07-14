@@ -1,8 +1,8 @@
-## Quick IC Vue 1.1.0
+## Quick IC Vue 1.2.0
 
 A quick Vue template for deployment on the Internet Computer.
 
-This is a Vue/TypeScript template that was generated using create-ic-app and then modified to fit specific use cases of the CP team. Comes with custom boilerplate code in default dark mode and is configured for DFX 0.9.2.
+This is a Vue/TypeScript template that was generated using create-ic-app and then modified to fit specific use cases of the CP team. Comes with custom boilerplate code in default dark mode and is configured for DFX 0.9.3.
 <br>
 <br>
 
