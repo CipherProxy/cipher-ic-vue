@@ -1,13 +1,6 @@
 {
   "canisters": {
-    "counter": {
-      "main": "counter-canister/main.mo",
-      "type": "motoko"
-    },
     "assets": {
-      "dependencies": [
-        "counter"
-      ],
       "frontend": {
         "entrypoint": "dist/index.html"
       },
@@ -22,7 +15,7 @@
       "packtool": ""
     }
   },
-  "dfx": "0.9.2",
+  "dfx": "0.9.3",
   "networks": {
     "local": {
       "bind": "127.0.0.1:8000",

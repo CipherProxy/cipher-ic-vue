@@ -1,7 +1,6 @@
 <template>
   <div class='app'>
     <div class='header'>
-       <Auth />
       <h1>Welcome!</h1>
     </div>
     <div class='content'>
@@ -12,7 +11,6 @@
 </template>
 
 <script lang="ts">
-import Auth from './Auth.vue';
 
 export default {
   name: "Main",
@@ -23,7 +21,7 @@ export default {
   }),
   // Define what Vue components will be loaded if any
   components: {
-    Auth,
+    
   },
   // Define your functions here to be called throughout the rest of the program
   // Use async and separate each function with a comma.
